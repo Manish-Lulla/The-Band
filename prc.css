@@ -139,3 +139,187 @@ ul{
 
 .pull-left{float: left;}
 .pull-right{float: right;}
+
+
+/************************************************
+**************** BASE STYLES ********************
+************************************************/
+
+.bg-primary {
+  background-color: #1097DC;
+  color: #333;
+}
+.bg-secondary {
+  background-color: #EBF7FE;
+  color: #333;
+}
+.bg-dark {
+  background-color: #333;
+  color: #FFF;
+}
+.bg-light {
+  background-color: #F4F4F4;
+  color: #333;
+}
+.bg-danger {
+  background-color: rgb(198, 51, 51);
+  color: #FFF;
+}
+.page-section {
+  padding: 80px 0;
+}
+
+
+.btn {
+  padding: 7px 10px;
+  border-color: transparent;
+  background-color: transparent;
+  color: inherit;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn.btn-primary {
+  background-color: #1097DC;
+  color: #333;
+}
+.btn.btn-primary:hover {
+  background-color: #333;
+  color: #1097DC;
+}
+.btn.btn-secondary {
+  background-color: #EBF7FE;
+  color: #333;
+}
+.btn.btn-secondary:hover {
+  color: #EBF7FE;
+  background-color: #333;
+}
+.btn.btn-dark {
+  background-color: #333;
+  color: #FFF;
+}
+.btn.btn-dark:hover {
+  color: #333;
+  background-color: #FFF;
+}
+.btn.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+.btn.btn-light:hover {
+  color: #f4f4f4;
+  background-color: #333;
+}
+
+.btn.btn-outline-primary {
+  border: solid 1px #1097DC;
+}
+.btn.btn-outline-primary:hover {
+  background-color: #1097DC;
+  color: #333;
+}
+
+.btn.btn-rounded { border-radius: 8px; }
+
+
+.pill {
+  padding: 0.2rem 0.5rem;
+  display: inline-block;
+}
+
+.pill.pill-rounded {
+  border-radius: 5px;
+}
+
+.badge {
+  display: inline-block;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.badge-dark {
+  background-color: #333;
+  color: #FFF;
+}
+
+.card {
+  background-color: #FFF;
+  color: #333;
+}
+.card-content {
+  padding: 1rem;
+}
+
+.card-image {
+  position: relative;
+  
+}
+.card-image:hover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/*****************************************
+THE BAND STARTS
+***************************************/
+
+
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 2.2rem;
+  font-family: 'Oswald',sans-serif;
+}
+
+.section-subtitle {
+  font-style: italic;
+  color: #999;
+}
+
+.tour-list {
+  background-color: #FFF;
+  color: #333;
+}
+.tour-list li{
+    padding:0.7rem 1rem;
+    border-bottom: solid 1px #ccc;
+}
+.tour-list li:last-child{
+    border-bottom: none;
+}
+/* ------------------------------------ */
+.navbar{
+    position: fixed;
+    top: 0;
+    padding: 20px 30px;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+#search{
+    float:right;
+    padding: 0 50px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif
+}
+#home,#more,#band,#tour,#contact{
+    padding: 0 20px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif;
+}
+#home:hover ,#search:hover,#more:hover ,#band:hover ,#tour:hover,#contact:hover, #submit:hover{
+    background-color: rgb(241, 237, 237);
+    color: black;
+}
